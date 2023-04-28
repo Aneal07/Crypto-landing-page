@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Landing Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="relative container mx-auto p-6 ">
+        <!--flex-container-->
+        <div class="flex item-center justify-between">
+            <!---logo-->
+            <div class="pt-2 pb-2 flex">
+                <i class="fa-brands fa-connectdevelop fa-spin fa-3x" style="color: #ff8652;"></i>
+                <h1 class="ml-2 text-2xl ">CRYPTO-WORLD</h1>
+                
+            </div>
+
+            <!--menu item-->
+            <div class="hidden  space-x-6 md:flex">
+                <a href="#" class="hover:text-darkGrayishBlue ">Pricing</a>
+                <a href="#"  class="hover:text-darkGrayishBlue ">Product</a>
+                <a href="#"  class="hover:text-darkGrayishBlue ">About Us</a>
+                <a href="#"  class="hover:text-darkGrayishBlue ">Careers</a>
+                <a href="#"  class="hover:text-darkGrayishBlue ">Community</a>
+            </div>
+            <!---button-->
+            <a href="" class=" hidden  p-3 pt-1.5 
+            px-4 text-white rounded-full bg-darkGrayishBlue 
+             hover:bg-brightRed w-15 h-10 md:block">Get Started</a>
+        </div>
+    </nav>
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+          title="menu"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Pricing</a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
+        </div>
+      </div>
+    </nav>
+
+    <!---hero section-->
+    <section id="hero">
+        <!---flex-container -->
+        <div class="container flex flex-col-reverse  
+        items-center px-6 mx-auto mt-10 spacee-y-0 md:space-y-0 md:flex-row">
+        <!--left item-->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <h2 class="max-w-md text-4xl font-bold text-center
+             md:text-5xl md:text-left">
+             Join the Crypto Revolution Today.
+            </h2>
+             <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                Invest in the future of finance with cryptocurrency. 
+                Experience the benefits of blockchain technology and unlock the potential of digital assets. 
+                Join the revolution today and transform your financial landscape.
+             </p>
+             <div class="flex justify-center md:justify-start">
+                <a href="" class="   p-3 pt-1.5 
+                px-4 text-white rounded-full bg-darkGrayishBlue 
+                hover:bg-brightRed w-15 h-10">Get Started</a>
+             </div>
+        </div>
+        <!--images-->
+        
+        <div class="md:w-1/2">
+            <img src="img/Coins_Isometric.png" alt="">    
+        </div>
+        
+    </div>
+    
+    </section>
+
+     <!-- Features Section -->
+     <section id="features">
+        <!-- Flex container -->
+        <div
+          class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
+        >
+          <!-- What's Different -->
+          <div class="flex flex-col space-y-12 md:w-1/2">
+            <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                Securely store your wealth with cryptocurrency.
+            </h2>
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                Learning about cryptocurrency and blockchain 
+                technology can not only provide personal financial 
+                benefits but also open up new career opportunities in a rapidly growing industry.
+            </p>
+          </div>
+  
+          <!-- Numbered List -->
+          <div class="flex flex-col space-y-8 md:w-1/2">
+            <!-- List Item 1 -->
+            <div
+              class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            >
+              <!-- Heading -->
+              <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div
+                    class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  >
+                    01
+                  </div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Explore the endless possibilities of blockchain technology.
+                  </h3>
+                </div>
+              </div>
+  
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">
+                    Explore the endless possibilities of blockchain technology.
+                </h3>
+                <p class="text-darkGrayishBlue">
+                    Its underlying technology, blockchain, offers opportunities for increased
+                     security and transparency in various fields, from supply chain management 
+                     to voting systems. As more companies and institutions explore and implement 
+                     blockchain technology,
+                     the demand for skilled professionals in this area is likely to increase. 
+                </p>
+              </div>
+            </div>
+  
+            <!-- List Item 2 -->
+            <div
+              class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            >
+              <!-- Heading -->
+              <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div
+                    class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  >
+                    02
+                  </div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Protect your privacy and maintain anonymity with cryptocurrency.
+                  </h3>
+                </div>
+              </div>
+  
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">
+                    Protect your privacy and maintain anonymity with cryptocurrency.
+                </h3>
+                <p class="text-darkGrayishBlue">
+                    the decentralized nature of blockchain technology ensures that your 
+                    transactions are secure and private. Join the millions of people 
+                    around the world who are taking advantage of the benefits of 
+                    cryptocurrencies and start exploring the exciting world of crypto today.
+                </p>
+              </div>
+            </div>
+  
+            <!-- List Item 3 -->
+            <div
+              class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            >
+              <!-- Heading -->
+              <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div
+                    class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  >
+                    03
+                  </div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Be your own bank with the power of blockchain.
+                  </h3>
+                </div>
+              </div>
+  
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">
+                    Be your own bank with the power of blockchain.
+                </h3>
+                <p class="text-darkGrayishBlue">
+                    Cryptocurrencies offer a unique opportunity for individuals to take control of their financial future. 
+                    With traditional banking systems, you have to rely on intermediaries to manage and access your funds,
+                     which can lead to restrictions, fees, and delays. 
+                    However, with cryptocurrencies, you have complete ownership and control over your digital assets. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials-->
+      <section id="testimonials">
+        <!---heading & testimonials-->
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center ">
+          <h2 class="text-4xl font-bold text-center">
+            "A New Era of Trust: How Crypto World 
+            is Building a More Transparent Crypto Ecosystem"
+          </h2>
+          <!---testimonials container-->
+          <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <!----testimonials 1-->
+            <div class="flex flex-col items-center p-6 space-y-6  bg-veryLightGray md:w-1/3">
+              <img src="img/testimonial4.jpg" alt="" class="w-16 -mt-14 rounded-full">
+              <h5 class="text-lg font-bold">Monica</h5>
+              <p class="text-sm text-darkGrayishBlue">"Crypto World has truly revolutionized 
+                the way I invest and think about my money. 
+                With their cutting-edge technology and expert insights, 
+                I feel confident and excited about my financial future."</p>
+            </div>
+          
+         
+            <!----testimonials 2-->
+            <div class="hidden md:flex flex-col items-center p-6 space-y-6  bg-veryLightGray md:w-1/3">
+              <img src="img/testimonial2.jpg" alt="" class="w-16 -mt-14 rounded-full">
+              <h5 class="text-lg font-bold">Joey</h5>
+              <p class="text-sm text-darkGrayishBlue">"Crypto World is the real deal. 
+                They have a deep understanding of the crypto landscape and are always 
+                on the lookout for the next big thing. 
+                I've been blown away by their accuracy and insights, 
+                and I trust them completely with my investments."</p>
+            </div>
+            <!---testimonial 3-->
+            <div class="hidden md:flex flex-col items-center p-6 space-y-6  bg-veryLightGray md:w-1/3">
+              <img src="img/testimonial3.jpg" alt="" class="w-16 -mt-14 rounded-full">
+              <h5 class="text-lg font-bold">Joey</h5>
+              <p class="text-sm text-darkGrayishBlue">"Crypto World is the real deal. 
+                They have a deep understanding of the crypto landscape and are always 
+                on the lookout for the next big thing. 
+                I've been blown away by their accuracy and insights, 
+                and I trust them completely with my investments."</p>
+            </div>
+            <!----testimonials 4-->
+            <div class="hidden md:flex flex-col items-center p-6 space-y-6  bg-veryLightGray md:w-1/3">
+              <img src="img/testimonial1.jpg" alt="" class="w-16 -mt-14 rounded-full">
+              <h5 class="text-lg font-bold">Rachel</h5>
+              <p class="text-sm text-darkGrayishBlue">"As someone who is new to the world of cryptocurrency, 
+                I was a bit intimidated at first. But the team at Crypto World made everything 
+                so simple and straightforward. 
+                They were there to guide me every step of the way, and now I feel like a pro!"</p>
+            </div>
+          </div> 
+      </section>
+
+      <!----CTA section-->
+      <section id="cta" class="bg-brightRed">
+        <!---flex -container-->
+        <div class="container flex flex-col items-center 
+        justify-between px-6 py-24 mx-auto space-y-12 
+        md:py-12 md:flex-row md:space-y-0">
+        <!---heading-->
+        <h2 class="text-4xl font-bold leading-tight text-center 
+        text-white md:text-4xl md:max-w-xl md:text-left">
+        "From Skeptic to Believer:
+         How Crypto World Has Changed the Way I See Cryptocurrency"
+      </h2>
+      </div>
+      </section>
+      
+
+       <!-- Footer -->
+    <footer class="bg-veryLightGray">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <!-- Logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+        >
+          <div class="mx-auto my-6 text-center  md:hidden">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+          <!-- Logo -->
+          <div>
+            <i class="fa-brands fa-connectdevelop fa-spin fa-3x" style="color: #ff8652;"></i>
+            <h1 class="ml-2 text-2xl ">CRYPTO-WORLD</h1>
+          </div>
+          <!-- Social Links Container -->
+          <div class="flex justify-center space-x-4">
+            <!-- Link 1 -->
+            <a href="#">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <!-- Link 2 -->
+            <a href="#">
+              <i class="fa-brands fa-reddit fa-2x"></i>
+            </a>
+            <!-- Link 3 -->
+            <a href="#">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <!-- Link 4 -->
+            <a href="#">
+              <i class="fa-brands fa-twitter fa-2x"></i>
+            </a>
+            <!-- Link 5 -->
+            <a href="#">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <!-- List Container -->
+        <div class="flex justify-around space-x-39">
+          <div class="flex flex-col space-y-3 ">
+            <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Products</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About</a>
+          </div>
+          <div class="flex flex-col space-y-3 ">
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- Input Container -->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Updated in your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRedSupLight hover:bg-brightRed focus:outline-none"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+          <div class="hidden  md:block">
+            Copyright &copy; 2023, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+      <script src="index.js"></script>
+</body>
+</html>
