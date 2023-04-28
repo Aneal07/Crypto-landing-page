@@ -2,7 +2,8 @@ Crypto Landing Page
 This is a landing page for a fictional cryptocurrency website, built using HTML, CSS, and JavaScript. The page is fully responsive and includes a navigation menu, a hero section, a features section, a team section, and a footer section.
 
 Demo
-You can view a live demo of the landing page here.
+You can view a live demo of the landing page here
+https://aneal07.github.io/Crypto-landing-page/
 
 Getting Started
 To get started, you can either clone this repository to your local machine or download the ZIP file.
