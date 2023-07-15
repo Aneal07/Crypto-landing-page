@@ -1,4 +1,5 @@
-This website need to be maintain.
+This website needs to be maintained.
+
 Crypto Landing Page
 This is a landing page for a fictional cryptocurrency website, built using HTML, Tailwind, and JavaScript. The page is fully responsive and includes a navigation menu, a hero section, a features section, a team section, and a footer section.
 
