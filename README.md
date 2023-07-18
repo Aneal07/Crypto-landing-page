@@ -5,7 +5,7 @@ This is a landing page for a fictional cryptocurrency website, built using HTML,
 
 Demo
 You can view a live demo of the landing page here
-https://aneal07.github.io/Crypto-landing-page/
+(https://aneal07.github.io/Crypto-landing-page/)
 
 Getting Started
 You can clone this repository to your local machine or download the ZIP file to get started.
